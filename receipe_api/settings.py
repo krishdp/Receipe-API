@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'recipes',
     'rest_framework',
     'rest_framework.authtoken',
+    'drf_spectacular',
+    'drf_spectacular_sidecar',
 ]
 
 MIDDLEWARE = [
@@ -134,4 +136,15 @@ REST_FRAMEWORK_SETTINGS = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication'
     ]
+}
+
+
+SPECTACULAR_SETTINGS = {
+    'SWAGGER_UI_DIST': 'SIDECAR',
+    'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
+    'REDOC_DIST': 'SIDECAR',
+    'VERSION': '1.0.0',
+    'SERVERS': [],
+    'SERVE_PERMISSIONS': [],
+    'SERVE_AUTHENTICATION': None,
 }
