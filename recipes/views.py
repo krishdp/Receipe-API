@@ -6,6 +6,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.authtoken.views import ObtainAuthToken
+
 from drf_spectacular.utils import extend_schema
 
 from .models import Recipe, Ingredient, Upvote

@@ -25,6 +25,7 @@ PyYAML==6.0
 requests==2.27.1
 simplejson==3.17.6
 sqlparse==0.4.2
+typing_extensions==4.1.1
 uritemplate==4.1.1
 urllib3==1.26.9
 zipp==3.8.0
