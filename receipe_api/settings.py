@@ -140,21 +140,10 @@ REST_FRAMEWORK_SETTINGS = {
 }
 
 
-# SPECTACULAR_SETTINGS = {
-#     'SWAGGER_UI_DIST': 'SIDECAR',
-#     'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
-#     'REDOC_DIST': 'SIDECAR',
-#     'VERSION': '1.0.0',
-#     'SERVERS': [],
-#     'SERVE_PERMISSIONS': [],
-#     'SERVE_AUTHENTICATION': None,
-# }
-
 SPECTACULAR_SETTINGS = {
     'SWAGGER_UI_DIST': 'SIDECAR',  # shorthand to use the sidecar instead
     'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
     'REDOC_DIST': 'SIDECAR',
-
     'TITLE': 'Receipe API',
     'DESCRIPTION': 'Add Receipe',
     'VERSION': '1.0.0',
