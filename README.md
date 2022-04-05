@@ -8,3 +8,5 @@
 ## Update Recipe
 
 ## Delete Recipe
+
+## Vote Recipe
